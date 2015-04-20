@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94A88C691AE4A21B00B03EF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A88C681AE4A21B00B03EF8 /* main.m */; };
+		94A88C6C1AE4A21B00B03EF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A88C6B1AE4A21B00B03EF8 /* AppDelegate.m */; };
+		94A88C6F1AE4A21B00B03EF8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A88C6E1AE4A21B00B03EF8 /* MasterViewController.m */; };
+		94A88C721AE4A21B00B03EF8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A88C711AE4A21B00B03EF8 /* DetailViewController.m */; };
+		94A88C751AE4A21B00B03EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A88C731AE4A21B00B03EF8 /* Main.storyboard */; };
+		94A88C771AE4A21B00B03EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A88C761AE4A21B00B03EF8 /* Images.xcassets */; };
+		94A88C7A1AE4A21B00B03EF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A88C781AE4A21B00B03EF8 /* LaunchScreen.xib */; };
+		94A88C861AE4A21C00B03EF8 /* UPEI_Used_BooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A88C851AE4A21C00B03EF8 /* UPEI_Used_BooksTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94A88C801AE4A21C00B03EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A88C5B1AE4A21B00B03EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A88C621AE4A21B00B03EF8;
+			remoteInfo = "UPEI Used Books";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94A88C631AE4A21B00B03EF8 /* UPEI Used Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UPEI Used Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A88C671AE4A21B00B03EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A88C681AE4A21B00B03EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94A88C6A1AE4A21B00B03EF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94A88C6B1AE4A21B00B03EF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94A88C6D1AE4A21B00B03EF8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		94A88C6E1AE4A21B00B03EF8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		94A88C701AE4A21B00B03EF8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		94A88C711AE4A21B00B03EF8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		94A88C741AE4A21B00B03EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94A88C761AE4A21B00B03EF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94A88C791AE4A21B00B03EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94A88C7F1AE4A21C00B03EF8 /* UPEI Used BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UPEI Used BooksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A88C841AE4A21C00B03EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A88C851AE4A21C00B03EF8 /* UPEI_Used_BooksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPEI_Used_BooksTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A88C601AE4A21B00B03EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A88C7C1AE4A21C00B03EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A88C5A1AE4A21B00B03EF8 = {
+			isa = PBXGroup;
+			children = (
+				94A88C651AE4A21B00B03EF8 /* UPEI Used Books */,
+				94A88C821AE4A21C00B03EF8 /* UPEI Used BooksTests */,
+				94A88C641AE4A21B00B03EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94A88C641AE4A21B00B03EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A88C631AE4A21B00B03EF8 /* UPEI Used Books.app */,
+				94A88C7F1AE4A21C00B03EF8 /* UPEI Used BooksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94A88C651AE4A21B00B03EF8 /* UPEI Used Books */ = {
+			isa = PBXGroup;
+			children = (
+				94A88C6A1AE4A21B00B03EF8 /* AppDelegate.h */,
+				94A88C6B1AE4A21B00B03EF8 /* AppDelegate.m */,
+				94A88C6D1AE4A21B00B03EF8 /* MasterViewController.h */,
+				94A88C6E1AE4A21B00B03EF8 /* MasterViewController.m */,
+				94A88C701AE4A21B00B03EF8 /* DetailViewController.h */,
+				94A88C711AE4A21B00B03EF8 /* DetailViewController.m */,
+				94A88C731AE4A21B00B03EF8 /* Main.storyboard */,
+				94A88C761AE4A21B00B03EF8 /* Images.xcassets */,
+				94A88C781AE4A21B00B03EF8 /* LaunchScreen.xib */,
+				94A88C661AE4A21B00B03EF8 /* Supporting Files */,
+			);
+			path = "UPEI Used Books";
+			sourceTree = "<group>";
+		};
+		94A88C661AE4A21B00B03EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A88C671AE4A21B00B03EF8 /* Info.plist */,
+				94A88C681AE4A21B00B03EF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A88C821AE4A21C00B03EF8 /* UPEI Used BooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				94A88C851AE4A21C00B03EF8 /* UPEI_Used_BooksTests.m */,
+				94A88C831AE4A21C00B03EF8 /* Supporting Files */,
+			);
+			path = "UPEI Used BooksTests";
+			sourceTree = "<group>";
+		};
+		94A88C831AE4A21C00B03EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A88C841AE4A21C00B03EF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A88C621AE4A21B00B03EF8 /* UPEI Used Books */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A88C891AE4A21C00B03EF8 /* Build configuration list for PBXNativeTarget "UPEI Used Books" */;
+			buildPhases = (
+				94A88C5F1AE4A21B00B03EF8 /* Sources */,
+				94A88C601AE4A21B00B03EF8 /* Frameworks */,
+				94A88C611AE4A21B00B03EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UPEI Used Books";
+			productName = "UPEI Used Books";
+			productReference = 94A88C631AE4A21B00B03EF8 /* UPEI Used Books.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94A88C7E1AE4A21C00B03EF8 /* UPEI Used BooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A88C8C1AE4A21C00B03EF8 /* Build configuration list for PBXNativeTarget "UPEI Used BooksTests" */;
+			buildPhases = (
+				94A88C7B1AE4A21C00B03EF8 /* Sources */,
+				94A88C7C1AE4A21C00B03EF8 /* Frameworks */,
+				94A88C7D1AE4A21C00B03EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A88C811AE4A21C00B03EF8 /* PBXTargetDependency */,
+			);
+			name = "UPEI Used BooksTests";
+			productName = "UPEI Used BooksTests";
+			productReference = 94A88C7F1AE4A21C00B03EF8 /* UPEI Used BooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A88C5B1AE4A21B00B03EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Vimal Atreya Ramaka";
+				TargetAttributes = {
+					94A88C621AE4A21B00B03EF8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					94A88C7E1AE4A21C00B03EF8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 94A88C621AE4A21B00B03EF8;
+					};
+				};
+			};
+			buildConfigurationList = 94A88C5E1AE4A21B00B03EF8 /* Build configuration list for PBXProject "UPEI Used Books" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94A88C5A1AE4A21B00B03EF8;
+			productRefGroup = 94A88C641AE4A21B00B03EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A88C621AE4A21B00B03EF8 /* UPEI Used Books */,
+				94A88C7E1AE4A21C00B03EF8 /* UPEI Used BooksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94A88C611AE4A21B00B03EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A88C751AE4A21B00B03EF8 /* Main.storyboard in Resources */,
+				94A88C7A1AE4A21B00B03EF8 /* LaunchScreen.xib in Resources */,
+				94A88C771AE4A21B00B03EF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A88C7D1AE4A21C00B03EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A88C5F1AE4A21B00B03EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A88C6C1AE4A21B00B03EF8 /* AppDelegate.m in Sources */,
+				94A88C6F1AE4A21B00B03EF8 /* MasterViewController.m in Sources */,
+				94A88C691AE4A21B00B03EF8 /* main.m in Sources */,
+				94A88C721AE4A21B00B03EF8 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A88C7B1AE4A21C00B03EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A88C861AE4A21C00B03EF8 /* UPEI_Used_BooksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94A88C811AE4A21C00B03EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A88C621AE4A21B00B03EF8 /* UPEI Used Books */;
+			targetProxy = 94A88C801AE4A21C00B03EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94A88C731AE4A21B00B03EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A88C741AE4A21B00B03EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94A88C781AE4A21B00B03EF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A88C791AE4A21B00B03EF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94A88C871AE4A21C00B03EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94A88C881AE4A21C00B03EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A88C8A1AE4A21C00B03EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UPEI Used Books/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94A88C8B1AE4A21C00B03EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UPEI Used Books/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94A88C8D1AE4A21C00B03EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UPEI Used BooksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPEI Used Books.app/UPEI Used Books";
+			};
+			name = Debug;
+		};
+		94A88C8E1AE4A21C00B03EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UPEI Used BooksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPEI Used Books.app/UPEI Used Books";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A88C5E1AE4A21B00B03EF8 /* Build configuration list for PBXProject "UPEI Used Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A88C871AE4A21C00B03EF8 /* Debug */,
+				94A88C881AE4A21C00B03EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A88C891AE4A21C00B03EF8 /* Build configuration list for PBXNativeTarget "UPEI Used Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A88C8A1AE4A21C00B03EF8 /* Debug */,
+				94A88C8B1AE4A21C00B03EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94A88C8C1AE4A21C00B03EF8 /* Build configuration list for PBXNativeTarget "UPEI Used BooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A88C8D1AE4A21C00B03EF8 /* Debug */,
+				94A88C8E1AE4A21C00B03EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94A88C5B1AE4A21B00B03EF8 /* Project object */;
+}
