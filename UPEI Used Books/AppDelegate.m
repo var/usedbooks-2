@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import <Parse/Parse.h>
+#import "SplashViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +20,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"QD3EJaC80QfkW07EsuCmH6WNPv2ZPasEki8ujf93"
+                  clientKey:@"s9hXowOQ1bjj0NlobscVLIsOwkur2KevLXq6Dapj"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    SplashViewController *viewController =
+    [[SplashViewController alloc] init];
+    
+    self.window.rootViewController = viewController;
     return YES;
 }
 
